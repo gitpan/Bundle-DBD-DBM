@@ -1,0 +1,40 @@
+--- #YAML:1.0
+name:               Bundle-DBD-DBM
+version:            0.06
+abstract:           Bundle to expand test range of DBD::DBM
+author:
+    - Jens Rehsack <rehsack@cpan.org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    Test::Simple:  0.90
+requires:
+    BerkeleyDB:           0.43
+    BerkeleyDB::Hash:     0
+    DB_File:              1.821
+    DBD::DBM:             0.06
+    DBD::File:            0.40
+    DBI::DBD::SqlEngine:  0.03
+    FreezeThaw:           0.5001
+    MLDBM:                0
+    MLDBM::Serializer::JSON:  0.001
+    MLDBM::Serializer::YAML:  0.10
+    perl:                 5.008
+    SQL::Statement:       1.33
+resources:
+    license:      http://dev.perl.org/licenses/
+    MailingList:  mailto:dbi-dev@perl.org
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.56
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
+recommends:
+    GDBM_File:  0
+    NDBM_File:  0
+    ODBM_File:  0

@@ -1,0 +1,15 @@
+Changes
+lib/Bundle/DBD/DBM.pm
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+README
+t/49dbd_file.t
+t/50dbm_simple.t
+t/51dbm_file.t
+t/52dbm_complex.t
+t/lib.pl
+xt/manifest.t
+xt/pod-coverage.t
+xt/pod.t
+META.yml                                 Module meta-data (added by MakeMaker)
